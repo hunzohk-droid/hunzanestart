@@ -18,6 +18,7 @@ PRODUCTS = {
     '4609536793': ('Small Business Accounting', 'https://i.etsystatic.com/68333470/r/il/102698/8864822515/il_794xN.8864822515_jnkc.jpg', 'Small Business Accounting bookkeeping spreadsheet', 'Easy bookkeeping: log income and expenses and see your business totals at a glance.', 'Spreadsheet'),
     '4617649899': ('Business Binder', 'img/business-binder.webp', 'Business Binder Google Sheets dashboard on a laptop', 'Orders, stock, clients, suppliers and tasks with a live dashboard, plus 20 printable pages.', 'Google Sheets'),
 
+    '4621599738': ('Binder Covers', 'img/binder-covers.webp', 'Binder Covers printable set shown on a laptop', '32 printable binder cover designs with matching spines and dividers, in 4 sizes, editable in Canva.', 'PDF + Canva'),
     '4620009381': ('All-in-One Planner', 'img/all-in-one-planner.webp', 'All-in-One Planner Google Sheets dashboard', 'Plan your days, weeks, goals and habits in one Google Sheet with a live dashboard.', 'Google Sheets'),
     '4620787319': ('Project Management Planner', 'img/project-management.webp', 'Project Management Planner with Gantt chart', 'Projects, tasks and deadlines with a self-updating Gantt chart and dashboard.', 'Sheets + Excel'),
     '4610977522': ('Notion Dashboard', 'img/notion-dashboard.webp', 'Notion Dashboard life planner home page', 'Tasks, projects, goals, habits, money and notes on one calm Notion home page.', 'Notion'),
@@ -47,13 +48,13 @@ PRODUCTS = {
     '4606807949': ('Morning Routine Bundle', 'img/morning-routine-bundle.webp', 'Morning Routine Bundle', 'Daily Rhythm Cards and the Learning Binder maker together in one bundle.', 'Google Sheets'),
 }
 
-NEW = ['4620787319', '4620009381', '4617649899']  # newest first, shown in "New in the shop"
+NEW = ['4621599738', '4620787319', '4620009381']  # newest first, shown in "New in the shop"
 
 SHELVES = [
     ('money', 'Money &amp; business', 'Plan paychecks, track bills, pay down debt and run a small business. Every sheet comes with a filled example so you can see how it works first.',
      ['4602131247', '4605515263', '4606098060', '4603169758', '4606796367', '4599275554', '4609536793', '4617649899']),
     ('planners', 'Planners &amp; career', 'Plan your days and projects, keep your life in one dashboard, and apply for your next job with a clean resume.',
-     ['4620009381', '4620787319', '4610977522', '4606848052', '4609462330', '4609589612']),
+     ['4620009381', '4620787319', '4621599738', '4610977522', '4606848052', '4609462330', '4609589612']),
     ('home', 'Home, health &amp; family', 'Keep the household organised: meals, recipes, cleaning and family records, printable in A4 or US Letter.',
      ['4608030764', '4598299148', '4611048712', '4616172372', '4606158298', '4615351269']),
     ('celebrations', 'Weddings, babies &amp; celebrations', 'Plan the big day, the hen night and the new arrival, with pages everyone can follow.',
