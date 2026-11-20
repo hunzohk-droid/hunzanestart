@@ -66,7 +66,7 @@ def metadata(title, description, url, image):
 
 def main():
     parser = argparse.ArgumentParser(__doc__)
-    parser.add_argument('--base-url', default='https://hunzohk-droid.github.io/hunzanestart/')
+    parser.add_argument('--base-url', default='https://hunzanestart.hunzo-hk.workers.dev/')
     args = parser.parse_args()
     base = args.base_url.rstrip('/') + '/'
     if not base.startswith('https://'):
@@ -137,7 +137,7 @@ def main():
         SubElement(SubElement(root, 'url'), 'loc').text = url
     ElementTree(root).write(ROOT / 'sitemap.xml', encoding='utf-8', xml_declaration=True)
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {base}sitemap.xml\n', encoding='utf-8')
-    (ROOT / 'wrangler.jsonc').write_text(json.dumps({'name': 'hunzanestart', 'compatibility_date': '2026-11-20', 'assets': {'directory': './dist', 'not_found_handling': '404-page'}}, indent=2) + '\n', encoding='utf-8')
+    (ROOT / 'wrangler.jsonc').write_text(json.dumps({'name': 'hunzanestart', 'workers_dev': True, 'compatibility_date': '2026-11-20', 'assets': {'directory': './dist', 'not_found_handling': '404-page'}}, indent=2) + '\n', encoding='utf-8')
     print(f'Generated {len(products)} product pages and {len(urls)} sitemap URLs. Base: {base}')
 
 

@@ -1,5 +1,6 @@
 {
   "name": "hunzanestart",
+  "workers_dev": true,
   "compatibility_date": "2026-11-20",
   "assets": {
     "directory": "./dist",

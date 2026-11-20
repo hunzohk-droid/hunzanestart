@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hunzohk-droid.github.io/hunzanestart/sitemap.xml
+Sitemap: https://hunzanestart.hunzo-hk.workers.dev/sitemap.xml

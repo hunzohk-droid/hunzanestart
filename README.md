@@ -5,8 +5,9 @@ Brand website for the HunzaNestart Etsy shop (https://hunzanestart.etsy.com). St
 ## Website SEO draft — T-013
 
 Prepared locally from commit bce2907 (33 products), 20 November 2026.
-No repository push or publication has happened. Canonical URLs currently use
-the existing GitHub Pages address until a Cloudflare address is verified.
+PR #1 was merged after Hassan's publishing approval on 20 November 2026.
+Production target: https://hunzanestart.hunzo-hk.workers.dev/ . Canonical URLs
+and sitemap entries use this primary address, including on GitHub Pages.
 
 Rebuild after catalogue changes:
 
@@ -29,8 +30,9 @@ reused from the source catalogue; actual product files were not re-audited.
 Product structured data has no unverified prices or ratings and is not yet
 eligible for Google product rich results without verified offer/review data.
 
-Pending: GitHub connection, Cloudflare account/destination verification,
-Hassan's publish approval, production checks, Search Console ownership and
-sitemap submission. GitHub connection was initiated through Composio session
-`poem`; check its status after Hassan confirms sign-in. No credentials stored.
+Cloudflare is connected to this repository's main branch. Build command:
+`python3 tools/build_seo.py --base-url https://hunzanestart.hunzo-hk.workers.dev/ && python3 tools/check_site.py && python3 tools/package_site.py`.
+Deploy command: `npx wrangler deploy`. Preview builds are disabled.
+Pending: first repository build and production checks, Search Console ownership
+and sitemap submission. No credentials stored.
 Current task record: shared tracker, Active Tasks, T-013.
